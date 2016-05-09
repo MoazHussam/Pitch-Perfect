@@ -25,6 +25,9 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        resumeButton.hidden = true
+        stopButton.hidden = true
+        pauseButton.hidden = true
     }
 
     override func didReceiveMemoryWarning() {
